@@ -1,0 +1,78 @@
+* {
+    font-family: Verdana;
+}
+
+body {
+    background-color: #DCDCDC !important;
+}
+
+.centralBorad {
+    display: block !important;
+    height: 560px;
+    width: 950px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white !important;
+    border-radius: 5px;
+    display: table;
+}
+
+.titleBoard {
+    background-color: #17a2b8;
+    color: #fff;
+    border-radius: 5px;
+    float: inline-end;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 10px;
+    width: 930px;
+}
+
+.subtitleBoard {
+    display: flex;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    margin: 0px 15px ;
+    width: 930px;
+}
+
+h2 {
+
+    font-size: 1.2rem !important;
+    color: #b2b2b2 !important;
+}
+
+.buttonStyle {
+    width: 250px;
+}
+
+.optDiv {
+    width: 950px;
+    text-align: right;
+    position: absolute;
+    top: 560px;
+    display: block;
+    padding-right: 10px;
+}
+
+.msgReturn {
+    width: 750px;
+    display: block;
+    position: absolute !important;
+    bottom: 10px;
+    right: 20px;
+}
+
+
+.inputText {
+    width: 920px !important;
+    margin: 10px 15px 0;
+}
+    
+.taskDone {
+    text-decoration: line-through;
+    font-style: italic;
+    color: #d35f5f;
+}
